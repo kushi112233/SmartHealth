@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context="com.example.kushani17.SmartHealth.UnderweightActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/back_cust"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/nalarm"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:paddingTop="10dp"
+            android:textSize="10dp"
+            android:background="@drawable/back_norma_button"
+            android:drawableTop="@drawable/alarmclock"
+            android:fontFamily="bold"
+            android:text="alarm"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/back_cust"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+           <!-- <FrameLayout
+                android:background="@drawable/back_norma_button"
+                android:layout_width="100dp"
+                android:layout_height="100dp">
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/exerciseicon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"
+                    android:text="Workout"
+                    android:layout_marginBottom="20dp"
+                    android:layout_gravity="bottom"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+            </FrameLayout>-->
+
+            <Button
+                android:id="@+id/nworkout"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:paddingTop="10dp"
+                android:textSize="10dp"
+                android:background="@drawable/back_norma_button"
+                android:drawableTop="@drawable/exerciseicon"
+                android:fontFamily="bold"
+                android:text="Workout"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/nyoga"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/back_norma_button"
+                android:drawableTop="@drawable/yogaicon"
+                android:paddingTop="10dp"
+                android:textSize="10dp"
+                android:fontFamily="bold"
+                android:text="Yoga"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/nBreakfast"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:paddingTop="10dp"
+                android:background="@drawable/back_norma_button"
+                android:drawableTop="@drawable/breakfasticon"
+                android:fontFamily="bold"
+                android:text="Breakfast"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+       android:background="@drawable/back_cust"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/nlunch"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:paddingTop="10dp"
+                android:textSize="10dp"
+                android:background="@drawable/back_norma_button"
+                android:drawableTop="@drawable/lunchicon"
+                android:fontFamily="bold"
+                android:text="Lunch"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/ndinner"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:paddingTop="10dp"
+                android:textSize="10dp"
+                android:background="@drawable/back_norma_button"
+                android:drawableTop="@drawable/dinnericon"
+                android:fontFamily="bold"
+                android:text="Dinner"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/nGrocerires"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:paddingTop="10dp"
+                android:textSize="10dp"
+                android:background="@drawable/back_norma_button"
+                android:drawableTop="@drawable/groceryicon"
+                android:fontFamily="bold"
+                android:text="Groceries"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

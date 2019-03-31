@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/back_cust"
+    tools:context="com.example.kushani17.SmartHealth.SpiceActivity">
+
+    <TextView
+        android:layout_width="450dp"
+        android:layout_height="250dp"
+        android:id="@+id/spicetext"
+        android:textSize="15dp"
+        android:text="Spices not only just excite your taste buds but are composed of an impressive list of phytonutrients, essential oils, antioxidants, minerals and vitamins that are essential for overall wellness. Spices have been an integral part of our food for centuries, and today, even become more relevant for us in the medicine. Thanks to the Arab and European explorers whose contributions in broadcasting them from their place of origin to the rest of the world. Moreover, today; their popularity widened, usage reached almost all the households on the earth!"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linkspices"
+        android:layout_below="@+id/spicetext"
+        android:textSize="20dp"
+        android:gravity="center"
+        />
+</RelativeLayout>

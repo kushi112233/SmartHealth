@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context="com.example.kushani17.SmartHealth.UnderweightActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/back_cust"
+        >
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/oalarm"
+            android:text="alarm"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:fontFamily="bold"
+            android:paddingTop="10dp"
+            android:background="@drawable/back_norma_button"
+            android:drawableTop="@drawable/alarmclock"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:background="@drawable/back_cust"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/oworkout"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:paddingTop="10dp"
+                android:textSize="10dp"
+                android:background="@drawable/back_norma_button"
+                android:drawableTop="@drawable/exerciseicon"
+                android:fontFamily="bold"
+                android:text="Workout"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/oyoga"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:paddingTop="10dp"
+                android:textSize="10dp"
+                android:background="@drawable/back_norma_button"
+                android:drawableTop="@drawable/yogaicon"
+                android:fontFamily="bold"
+                android:text="Yoga"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/oBreakfast"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="10dp"
+                android:paddingTop="10dp"
+                android:background="@drawable/back_norma_button"
+                android:drawableTop="@drawable/breakfasticon"
+                android:fontFamily="bold"
+                android:text="Breakfast"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:background="@drawable/back_cust"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/olunch"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:paddingTop="10dp"
+                android:textSize="10dp"
+                android:background="@drawable/back_norma_button"
+                android:drawableTop="@drawable/lunchicon"
+                android:fontFamily="bold"
+                android:text="Lunch"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/odinner"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:paddingTop="10dp"
+                android:textSize="10dp"
+                android:background="@drawable/back_norma_button"
+                android:drawableTop="@drawable/dinnericon"
+                android:fontFamily="bold"
+                android:text="Dinner"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/oGrocerires"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:paddingTop="10dp"
+                android:textSize="10dp"
+                android:background="@drawable/back_norma_button"
+                android:drawableTop="@drawable/groceryicon"
+                android:fontFamily="bold"
+                android:text="Groceries"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kushani17.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Smart Health"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.kushani17.SmartHealth.MainPageActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.kushani17.SmartHealth.SignupActivity" />
+        <activity android:name="com.example.kushani17.SmartHealth.LoginActivity" />
+        <activity android:name="com.example.kushani17.SmartHealth.BmiActivity" />
+        <activity android:name="com.example.kushani17.SmartHealth.UnderweightActivity" />
+        <activity android:name="com.example.kushani17.SmartHealth.NormaActivity" />
+        <activity android:name="com.example.kushani17.SmartHealth.OverweightActivity" />
+        <activity android:name="com.example.kushani17.SmartHealth.NworkoutActivity" />
+        <activity android:name="com.example.kushani17.SmartHealth.NyogaActivity" />
+        <activity android:name="com.example.kushani17.SmartHealth.NbreakfastActivity" />
+        <activity android:name="com.example.kushani17.SmartHealth.NlunchActivity" />
+        <activity android:name="com.example.kushani17.SmartHealth.NdinnerActivity" />
+        <activity android:name="com.example.kushani17.SmartHealth.NgroceriesActivity" />
+        <activity android:name="com.example.kushani17.SmartHealth.UworkoutActivity" />
+        <activity android:name="com.example.kushani17.SmartHealth.UyogaActivity" />
+        <activity android:name="com.example.kushani17.SmartHealth.UbreakfastActivity" />
+        <activity android:name="com.example.kushani17.SmartHealth.UlunchActivity" />
+        <activity android:name="com.example.kushani17.SmartHealth.UdinnerActivity" />
+        <activity android:name="com.example.kushani17.SmartHealth.OworkoutActivity" />
+        <activity android:name="com.example.kushani17.SmartHealth.OyogaActivity" />
+        <activity android:name="com.example.kushani17.SmartHealth.ObreakfastActivity" />
+        <activity android:name="com.example.kushani17.SmartHealth.OlunchActivity" />
+        <activity android:name="com.example.kushani17.SmartHealth.OdinnerActivity" />
+        <activity android:name="com.example.kushani17.SmartHealth.NalarmActivity" />
+        <activity android:name="com.example.kushani17.SmartHealth.GrainActivity" />
+        <activity android:name="com.example.kushani17.SmartHealth.BreadActivity" />
+        <activity android:name="com.example.kushani17.SmartHealth.JuiceActivity" />
+        <activity android:name="com.example.kushani17.SmartHealth.SpiceActivity" />
+        <activity android:name="com.example.kushani17.SmartHealth.MilkActivity">
+            <receiver android:name=".AlarmReciever"></receiver>
+        </activity>
+    </application>
+
+</manifest>
